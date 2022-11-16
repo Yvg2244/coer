@@ -1,23 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import Background from "./components/Background";
+import GuideForm from "./components/GuideForm";
+import Guideinfo from "./components/Guideinfo";
+import ModeCard from "./components/ModeCard";
+import Navbar from "./components/Navbar";
+import RouteForm from "./components/RouteForm";
+import Tourist from "./components/Tourist";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <Navbar></Navbar>
+    {/* <Background>
+    </Background>
+    <RouteForm/>
+    <GuideForm></GuideForm>
+    <Guideinfo/>
+    <Tourist></Tourist> */}
+
+    <ModeCard></ModeCard>
     </div>
   );
 }
