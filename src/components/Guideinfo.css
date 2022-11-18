@@ -1,15 +1,11 @@
 .guideinfo{
-    border: 1px solid black;
-    color: black;
-    top: -3rem;
+    margin-top: 3rem;
+
+    /* top: -3rem; */
     width: 100%;
-    position: relative;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+   
+   
 }
 
-.guideinfo-img{
-    height: 100vh;
-    
-}
+
+

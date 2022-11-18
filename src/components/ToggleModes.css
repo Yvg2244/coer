@@ -1,0 +1,12 @@
+.toggleModes{
+    /* margin-top: 10rem; */
+    width: 20rem;
+    background-color: white;
+    border-radius: 7px 7px 0px 0px;
+    /* border-bottom: 1px solid black; */
+}
+button{
+    /* border: none; */
+    /* padding-top: 5px; */
+    margin: 5px 10px;
+}

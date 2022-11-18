@@ -3,7 +3,10 @@ import './Plugin.css';
 
 function NavbarItems(props){
     return (
-       <div className="navbaritems text-white fs-500">{props.title}</div>
+       <div className="navbaritems flex flex-row text-dark fs-300">
+        
+        <a>{props.title}</a>
+        </div>
     );
 }
 export default NavbarItems;

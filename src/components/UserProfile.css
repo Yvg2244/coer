@@ -1,0 +1,14 @@
+.userprofile{
+    width: 100%;
+    
+}
+.userprofile-dp{
+    height: 4rem;
+    aspect-ratio: 1;
+}
+.userprofile-dp div{
+    height: 100%;
+    aspect-ratio: 1;
+    background-position: center;
+    background-size: cover;
+}

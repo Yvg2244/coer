@@ -7,7 +7,7 @@ function Guideinfo(){
             <div className="guideinfo-text flex flex-col ">
             <p className="fs-500 ff-serif ">Become a Guide</p>
             <p className="fs-300 ff-serif ">Guide others for the best experience and earn the rewards</p>
-            <button>Become a guide</button>
+            <button className='text-white'>Become a guide</button>
             </div>
             <div className="guideinfo-img"  />
 
